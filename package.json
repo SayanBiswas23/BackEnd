@@ -2,15 +2,19 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "backend journey spawn point",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node start index.js"
+    "dev":"nodemon src/index.js"
   },
   "keywords": [
     "javascript",
     "MERN"
   ],
   "author": "Sayan Biswas",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
