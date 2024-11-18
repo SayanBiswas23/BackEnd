@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend journey spawn point",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start index.js"
+  },
+  "keywords": [
+    "javascript",
+    "MERN"
+  ],
+  "author": "Sayan Biswas",
+  "license": "ISC"
+}
